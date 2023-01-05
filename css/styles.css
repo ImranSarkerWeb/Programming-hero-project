@@ -276,7 +276,10 @@ footer {
 
     margin-bottom: 30px;
 }
-
+.part-of-contact > a> img{
+    margin-top: -30px;
+    margin-right: 20px;
+}
 [type="text"],
 [type="email"] {
     display: block;
@@ -284,7 +287,9 @@ footer {
     width: 461px;
     height: 64px;
     background: #FFFFFF;
+    border: none;
     border-radius: 5px;
+    padding: 18px 30px;
 }
 
 textarea {
@@ -294,13 +299,12 @@ textarea {
     height: 180px;
     background: #FFFFFF;
     border-radius: 5px;
+    border: none;
+    padding: 18px 30px;
+
 }
 
-::-webkit-input-placeholder {
-    /* WebKit browsers */
-    color: #909;
-    padding-left: 10px;
-}
+
 
 .btn-submit {
     color: #FFFFFF;
