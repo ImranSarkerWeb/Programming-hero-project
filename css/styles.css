@@ -19,6 +19,14 @@
     padding: 18px 35px;
 }
 
+header {
+    background: #FFF8F3;
+    background-image: url("../images/header_bg.png"),
+        url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+}
+
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -27,8 +35,8 @@
 nav {
     display: flex;
     justify-content: space-between;
-
-    margin: 51px 200px;
+    padding-top: 2%;
+    margin: 0px 200px;
 }
 
 nav ul {
@@ -45,7 +53,7 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
-    margin: 20px 200px;
+    margin: 20px 200px 0 200px;
 }
 
 .banner-subtitle {
@@ -59,7 +67,7 @@ nav li {
     font-size: 85px;
 }
 
-.banner>div>p {
+.banner-description {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
