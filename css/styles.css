@@ -88,3 +88,91 @@ nav li {
     padding: 18px 24px;
     margin-left: 30px;
 }
+
+/* main section */
+main {
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* About me section */
+.aboutme {
+    background-color: #FFFFFF;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+.text-aboutme {
+    height: 288px;
+    width: 827px;
+    margin: auto;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+    text-align: center;
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-title{
+    font-size: 20px;
+    color:#757575;
+}
+.info-description{
+    font-size: 20px;
+    color: #474747;
+}
+.whatIdo {
+    text-align: center;
+}
+
+.card-section {
+    max-width: 100%;
+    display: flex;
+
+}
+
+.card {
+    text-align: left;
+    max-width: 30.33%;
+    margin: 1%;
+    width: 267px;
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.card img{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.card-header, .card-description{
+    margin: 30px;
+
+}
+
+/* summery section */
+.summery{
+    margin-top: 130px;
+    max-width: 100%;
+   
+}
