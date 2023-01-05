@@ -14,7 +14,7 @@
     border: none;
     font-weight: 700;
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 5px;
     background-color: #FD6E0A;
     padding: 18px 35px;
 }
@@ -39,4 +39,44 @@ nav ul {
 nav li {
     list-style: none;
     margin-left: 20px;
+}
+
+/* Banner section style */
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 20px 200px;
+}
+
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner>div>p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-contact {
+
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FD6E0A;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 18px 24px;
+    margin-left: 30px;
 }
